@@ -1,0 +1,4 @@
+include ':menuex1'
+include ':javamenu'
+include ':app'
+rootProject.name = "MenuApp"

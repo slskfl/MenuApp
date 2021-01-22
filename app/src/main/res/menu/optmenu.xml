@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bgRed"
+        android:title="배경색-빨강"/>
+    <item
+        android:id="@+id/bgGreen"
+        android:title="배경색-초록"/>
+    <item
+        android:id="@+id/bgBlue"
+        android:title="배경색-파랑"/>
+    <item
+        android:id="@+id/bgBase"
+        android:title="배경색-기본"/>
+    <item android:title="이미지 변경>>">
+        <menu>
+            <item android:id="@+id/imgRotation"
+                android:title="이미지 회전"/>
+            <item android:id="@+id/imgBase"
+                android:title="원래 이미지"/>
+        </menu>
+    </item>
+
+</menu>
